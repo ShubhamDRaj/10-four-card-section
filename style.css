@@ -78,6 +78,10 @@ header h1 {
 }
 
 header span {
+    display: block;
+    /* setting display block will ensure to
+    always show the line in span as a separate
+    line */
     font-weight: var(--fw-bold);
 }
 
